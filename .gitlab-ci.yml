@@ -19,4 +19,4 @@ pages:
     - ls
   artifacts:
     paths:
-      - .next
+      - build
