@@ -13,7 +13,11 @@ before_script:
   - npm install
 
 
-deploy:
+pages:
   script:
     - npm run build
-    - npm run start
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
