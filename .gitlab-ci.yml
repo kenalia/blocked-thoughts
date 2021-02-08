@@ -18,6 +18,4 @@ pages:
     - npm run build
   artifacts:
     paths:
-      - public
-  only:
-    - master
+      - .next
