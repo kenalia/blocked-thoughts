@@ -9,6 +9,7 @@ cache:
   paths:
     - node_modules/
 
-script:
-    npm run build
-    npm run start
+deploy:
+  script:
+    - npm run build
+    - npm run start
