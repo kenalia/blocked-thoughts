@@ -12,10 +12,10 @@ cache:
 before_script:
   - npm install
 
-
 pages:
   script:
     - npm run build
+    - ls
   artifacts:
     paths:
       - .next
